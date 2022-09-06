@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="app.css" />
+    <title>Baseball Scoreboard</title>
+  </head>
+  <body>
+    <main>
+      <h1>Baseball Scoreboard</h1>
+      <div class="container">
+        <div class="score-layout">
+          <h3>HOME</h3>
+          <p class="scoreboard" id="home-score">0</p>
+          <button id="home-add1">+1</button>
+          <button id="home-add2">+2</button>
+          <button id="home-add3">+3</button>
+        </div>
+        <div class="score-layout">
+          <h3>AWAY</h3>
+          <p class="scoreboard" id="guest-score">0</p>
+          <button id="guest-add1">+1</button>
+          <button id="guest-add2">+2</button>
+          <button id="guest-add3">+3</button>
+        </div>
+      </div>
+      <button id="new-game">NEW GAME</button>
+    </main>
+    <footer>
+      <p>Made by KAVD</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
